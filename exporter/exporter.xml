@@ -11,13 +11,13 @@
     <!-- exporter version -->
     <version>1.0</version>
 
-    <!-- currently only one file allowed - more to come with update -->
+    <!-- currently, only one file allowed - more to come with update -->
     <files>
         <file>
             <!-- name of this file variable -->
             <name>ron</name>
 
-            <!-- human readable name (for GUI) -->
+            <!-- human-readable name (for GUI) -->
             <displayName>RON file</displayName>
 
             <!-- file extension for the file -->
@@ -29,7 +29,7 @@
             <!-- name of the template file -->
             <template>template.tmpl</template>
 
-            <!-- one json file for all multi-pack sheets -->
+            <!-- one json file for all multipack sheets -->
             <hasSeparateMultiPackFiles>false</hasSeparateMultiPackFiles>
         </file>
     </files>
@@ -50,7 +50,7 @@
     <!-- supports file name stripping (remove .png etc) -->
     <supportsTrimSpriteNames>yes</supportsTrimSpriteNames>
 
-    <!-- supports texure subpath -->
+    <!-- supports texture subpath -->
     <supportsTextureSubPath>no</supportsTextureSubPath>
 
     <supportsPivotPoint>true</supportsPivotPoint>
