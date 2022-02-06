@@ -1,0 +1,60 @@
+<exporter version="1.0">
+    <!-- identifier of the exporter -->
+    <name>bevy_ron</name>
+
+    <!-- display name of the exporter for the combo box -->
+    <displayName>Bevy Texture Atlas</displayName>
+
+    <!-- description of the exporter -->
+    <description>RON format for Bevy</description>
+
+    <!-- exporter version -->
+    <version>1.0</version>
+
+    <!-- currently only one file allowed - more to come with update -->
+    <files>
+        <file>
+            <!-- name of this file variable -->
+            <name>ron</name>
+
+            <!-- human readable name (for GUI) -->
+            <displayName>RON file</displayName>
+
+            <!-- file extension for the file -->
+            <fileExtension>ron</fileExtension>
+
+            <!-- description what the file contains, used in tooltips in the GUI -->
+            <description>RON file for Bevy</description>
+
+            <!-- name of the template file -->
+            <template>template.tmpl</template>
+
+            <!-- one json file for all multi-pack sheets -->
+            <hasSeparateMultiPackFiles>false</hasSeparateMultiPackFiles>
+        </file>
+    </files>
+
+
+    <!-- target framework supports trimming -->
+    <supportsTrimming>true</supportsTrimming>
+
+    <!-- target framework supports rotated sprites -->
+    <supportsRotation>true</supportsRotation>
+
+    <!-- rotated sprites direction (cw/ccw) -->
+    <rotationDirection>ccw</rotationDirection>
+
+    <!-- supports npot sizes -->
+    <supportsNPOT>true</supportsNPOT>
+
+    <!-- supports file name stripping (remove .png etc) -->
+    <supportsTrimSpriteNames>yes</supportsTrimSpriteNames>
+
+    <!-- supports texure subpath -->
+    <supportsTextureSubPath>no</supportsTextureSubPath>
+
+    <supportsPivotPoint>true</supportsPivotPoint>
+
+    <supportsAnimations>true</supportsAnimations>
+
+</exporter>
