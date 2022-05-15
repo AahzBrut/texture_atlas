@@ -28,7 +28,9 @@ pub struct TextureData{
 #[derive(Deserialize, Debug)]
 pub struct SpriteData{
     sprite_name: String,
-    size: Size,
+    texture: String,
+    index: usize,
+    untrimmed_size: Size
 }
 
 #[allow(dead_code, clippy::module_name_repetitions)]
